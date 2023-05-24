@@ -1,0 +1,50 @@
+/* Write your CSS here */
+
+.dark-bg {
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.light-bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.not-found {
+  width: 300px;
+  height: 300px;
+}
+
+.light-text-not {
+  color: #334155;
+  font-family: 'roboto';
+  font-weight: 500;
+  font-size: 36px;
+}
+
+.dark-text-not {
+  color: #ffffff;
+  font-family: 'roboto';
+  font-weight: 500;
+  font-size: 36px;
+}
+.dark-text-not-para {
+  color: #ffffff;
+  font-family: 'roboto';
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.light-text-not-para {
+  color: #64748b;
+  font-family: 'roboto';
+  font-weight: 300;
+  font-size: 20px;
+}

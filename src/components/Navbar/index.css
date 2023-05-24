@@ -1,0 +1,71 @@
+/* Write your CSS here */
+.nav-container {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+}
+
+.nav-container-light {
+  background-color: #333333;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+}
+
+.tabs-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 240px;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.nav-bar-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dark-logo {
+  height: 50px;
+  width: 50px;
+}
+
+.dark-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.light-logo {
+  height: 50px;
+  width: 50px;
+}
+
+.light-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.link-item {
+  text-decoration: none;
+}
+
+.light-item-text {
+  color: #ffffff;
+  font-family: 'roboto';
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.dark-item-text {
+  color: #171f46;
+  font-family: 'roboto';
+  font-weight: 700;
+  font-size: 24px;
+}
